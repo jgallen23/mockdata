@@ -6,8 +6,11 @@ console.log(mock.chars(5, 9));
 //name
 console.log(mock.name());
 
-//number (length)
-console.log(mock.number(10));
+//number (max)
+console.log(mock.n(10));
+
+//bignumber (length)
+console.log(mock.bignumber(10));
 
 //site
 console.log(mock.url());
@@ -36,3 +39,9 @@ console.log(mock.site());
 
 //word
 console.log(mock.word());
+
+//range
+console.log(mock.range(0, 10));
+
+//image
+console.log(mock.image(100, 800, 100, 800));
