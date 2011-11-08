@@ -45,3 +45,7 @@ console.log(mock.range(0, 10));
 
 //image
 console.log(mock.image(100, 800, 100, 800));
+
+//randomItem
+var arr = ['a','b','c','d'];
+console.log(mock.randomItem(arr));
